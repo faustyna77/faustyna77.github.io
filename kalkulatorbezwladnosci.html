@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalkulatorbezwladnosci</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat:400,700&display=swap&subset=latin-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/style5.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="top">
+            <h1>Kalkulator momentów bezwładności </h1>
+            <p></p>
+        </div>
+        <div class="bottom">
+            <label for="cialo">rodzaj ciała</label>
+            <input type="text" id="cialo">
+            
+            
+            
+            <label for="masa">masa </label>
+            <input type="number" id="masa">
+
+            <label for="promien">promień kuli</label>
+            <input type="number" id="promien">
+            
+
+            <label for="distance">Odległość</label>
+            <select id="distance">
+                <option value="0" disabled selected>- wybierz odległość ciała od osi obrotu zewnetrznej -</option>
+                <option value="0.05">0[m]</option>
+                <option value="0.1">2[m]</option>
+                <option value="0.15">4[m]</option>
+                <option value="0.2">6[m]</option>
+            </select>
+            
+            <button class="count">Oblicz</button>
+            <p class="error"></p>
+            <p class="result">Wynik wynosi  <span class="info"></span>kg*m^2</p>
+           
+        </div>
+    </div>
+    
+    <script src="kalkulatorbezwladnosci.js"></script>
+</body>
+
+</html>

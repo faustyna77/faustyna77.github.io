@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(233, 233, 233);
+}
+
+.wrapper {
+    width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #000;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    height: 360px;
+    padding: 20px 40px;
+    font-family: 'Dancing Script', cursive;
+    background-image: url('../img/img6.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+.shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .35);
+    z-index: -1;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 50px;
+}
+
+.search {
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,.85);
+}
+
+.drink-list {
+    padding: 20px 40px;
+}
+
+h2 {
+    padding: 30px 0;
+}
+
+ul {
+    padding-bottom: 30px;
+    font-size: 23px;
+    list-style: none;
+}
+
+li {
+    padding: 8px 30px;
+    border-bottom: 1px solid rgb(226,226,226);
+}
+
+li:last-child {
+    border-bottom: 0;
+}
