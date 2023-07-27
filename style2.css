@@ -1,0 +1,105 @@
+*
+{
+    box-sizing: content-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    background-image: url('img/blueprin1280.jpg');
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+p{
+    margin:20px;
+}
+.wrapper
+{
+    background-image: url('img/blueprin1280.jpg');
+    background-color: rgba(0,0,0,0.8);
+
+    
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    
+    border: 3px solid orangered;
+    margin-top: 50px;
+    height: 500px;
+    width: 400px;
+    
+    border-radius: 10px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+input{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height:50px;
+    width: 150px;
+    background-color: aliceblue;
+    padding: 10px;
+    
+    background-image: url('img/blueprin1280.jpg');
+    left:50%;
+    border-radius: 10px;
+    margin:30px;
+    color:white;
+    font-weight: bold;
+
+    
+}
+
+
+.btncount
+{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    color:black;
+    border:2px solid black;
+    left:50%;
+    padding: 5px;
+    margin:20px;
+    font-weight: bold;
+    transition: 0.7s;
+
+}
+
+.btncount:hover
+{
+    background-image: url('img/blueprin1280.jpg');
+    color:white;
+    font-weight: bold;
+
+}
+
+.results
+{
+    height:200px;
+    width: 150px;
+    
+    margin-left:60px;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
