@@ -1,0 +1,72 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 30%;
+ 
+    background-image: url('img/pressure-detection-system-161160_640.png');
+    background-color: rgba(0,0,0,0.4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+    font-weight: bold;
+}
+
+input
+{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 5px;
+    padding: 10px 20px;
+    
+}
+
+
+button{
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color:brown;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.wrap
+{
+
+    padding: 20px;
+}
+
+.first-span
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(253, 71, 15);
+}
+
+.second-span
+{
+    font-size:35px;
+    font-weight: bold;
+    color: rgb(101, 15, 15);
+}
+
+.info
+{
+    color: red;
+    font-size:35px;
+    font-weight: bold;
+
+}

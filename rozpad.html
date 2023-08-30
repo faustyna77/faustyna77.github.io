@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="rozpad.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aplikacja obliczająca rozpady promieniotwwórcze">
+    <meta name="keywords" content="fizyka, rozpady">
+    <meta name="author" content="Faustyna Misiura">
+    <title>Kalkulator rozpadu promieniotwórczego</title>
+    <div class="wrapper">
+        <p>wybierz ta opcje gdy chcesz wyznaczyć po ilu latach zostało substancji </p>
+       
+        <p> Wybierz ponizszą opcje jesli hcesz sprawdić jaki jest okres połowicznego rozpadu </p>
+        <input type="checkbox" class="checkbox1">
+        <input type="checkbox" class="checkbox2">
+        <input type="checkbox" class="checbox3">
+        <input type="checkbox" class="checbox4">
+      
+
+        
+        <div class="first-option">
+          <h4>Wyznaczanie czasu zaniku</h4>
+        <label>
+            Podaj okres połowicznego rozpadu dla wybranej próbki pierwiastka
+        </label>
+        <input type="text" class="halfTime">
+        <label>Podaj masę początkową w kg </label>
+        <input type="text" class="NO">
+        <label>Podaj mase końcową </label>
+        <input type="text" class="NT">
+        <button class="newBtn">oblcz</button>
+        </div>
+        <div class="second-option">
+            <h4>Wyznaczanie masy końcowej</h4>
+          <label>Podaj czas po, którym chcesz wyznaczyc końcowa mase izotopu</label>
+          <input type="text" class="timeend">
+          <label>Podaj poczatkowa mase jader</label>
+          <input type="text" class="NOsecond">
+          <label>Podaj okres połowicznego rozpadu</label>
+          <input type="text" class="TimeHalfSecond">
+          <button class="newBtn2">oblicz</button>
+          <p class="secondOptionResult"></p>
+         
+        </div>
+        <div class="div-third"></div>
+        <div class="third-option">
+            <h4>wyznaczanie okresu połowicznego rozpadu</h4>
+        <label>Podaj czas po, którym chcesz wyznaczyć masę końcową rozpadu </label>
+        <input type="text" class="timethird">
+        <label>Podaj mase początkową jąder</label>
+        <input type="text" class="NOthird">
+        <label>podaj masę końcową jader</label>
+        <input type="text" class="NTthird">
+        <button class="newBtn3"> oblicz</button>
+        <p class="thirdAnswer"> okres połowicznego rozpadu wynosi</p>
+        </div>
+       
+        <div class="div-four">
+            <h4>Wyznaczanie masy początkowej </h4>
+          <label>Podaj czas po, którym chcesz wyznaczyc końcowa mase izotopu</label>
+          <input type="text" class="timeendfour">
+        
+          <label>Podaj okres połowicznego rozpadu</label>
+          <input type="text" class="TimeHalfFour">
+          <label>podaj masę końcową</label>
+          <input type="text" class="finallyMass">
+          
+          <button class="newBtn4">oblicz</button>
+          <p class="fourAnswer"> </p>
+        </div>
+        <div class="div-five">
+
+        </div>
+    </div>
+</head>
+<body>
+    <script src="rozpad.js">
+
+    </script>
+</body>
+</html>
