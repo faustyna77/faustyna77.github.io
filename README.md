@@ -1,9 +1,9 @@
 # faustyna77.github.io   -> https://faustyna77.github.io./
 
 
-strona została zaprojektowana w elu digitalizacji i pomocy przy zajęciach online z fizyki
-Strona jest baza wiedzy oraz zadań i zbiorów zadań z różnych dziedzin/działów fizyki 
-Strona ta jest cały czas na bierząco rozwijana i modyfikowana.
+Strona została zaprojektowana w celu digitalizacji i pomocy przy zajęciach online z fizyki.
+Strona jest baza wiedzy oraz zadań i zbiorów zadań z różnych dziedzin/działów fizyki. 
+Strona ta jest cały czas na bieżąco rozwijana i modyfikowana.
 
 
 
